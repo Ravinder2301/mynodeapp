@@ -1,0 +1,47 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    /* border: 2px solid black; */
+    max-width: 70%;
+    margin: 3rem auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 50%;
+}
+input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    background: rgb(210, 207, 207);
+    border-radius: 5px;
+}
+.btn{
+    border: none;
+    outline: none;
+    /* border: 2px solid black; */
+    background: rgb(209, 145, 145);
+}
+.btn:hover{
+    background: transparent;
+}
+h2{
+    font-size: 2rem;
+
+}
+.link{
+    position: relative;
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    margin: 1rem;
+    position: absolute; 
+    left: 0;
+    font-size: 1rem;
+}

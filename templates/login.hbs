@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/login.css">
+</head>
+<body>
+    <div class="login">
+        
+        <h2>Login Page</h2>
+        <p id="errorMessage" style="color: red;">{{errorMessage}}</p>
+        <form action="/login" method="post">
+            <input type="text" name="name" placeholder="Enter your name">
+            <input type="password" name="password" placeholder="Enter your pass">
+            <input type="submit" class="btn">
+        </form>
+        <div class="link">
+            <a href="/signup">Make a new account</a>
+        </div>
+
+    </div>
+</body>
+</html>
