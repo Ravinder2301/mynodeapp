@@ -5,7 +5,7 @@ const app = express();
 const path = require("path")
 const hbs = require("hbs");
 const collection = require("./src/mongodb")
-const templatePath = path.join(__dirname,'../templates')
+const templatePath = path.join(__dirname,'./templates')
 // app.use(express.static(__dirname + '/public'));
 app.use(express.static('.'));
 
